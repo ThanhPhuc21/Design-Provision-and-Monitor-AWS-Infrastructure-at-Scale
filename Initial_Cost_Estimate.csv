@@ -1,0 +1,22 @@
+﻿Estimate summary
+Upfront cost,Monthly cost,Total 12 months cost,Currency
+0,8143.26,97719.12,USD
+,,* Includes upfront cost
+
+
+Detailed Estimate
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Status,Configuration summary
+My Estimate,US East (N. Virginia),Web Server,Amazon EC2 ,0,568.088,6817.06,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 2), Advance EC2 instance (t3.2xlarge), Pricing strategy (On-Demand Utilization: 100 %Utilized/Month), Enable monitoring (enabled), EBS Storage amount (50 GB), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+My Estimate,US East (N. Virginia),Application Server,Amazon EC2 ,0,638.64,7663.68,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 2), Advance EC2 instance (m5.2xlarge), Pricing strategy (On-Demand Utilization: 100 %Utilized/Month), Enable monitoring (disabled), EBS Storage amount (50 GB), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+My Estimate,US East (N. Virginia),Master DB and Read Replica,Amazon RDS for MySQL,0,5040.16,60481.92,USD,,"Storage amount (5 TB), Storage for each RDS instance (General Purpose SSD (gp2)), Nodes (2), Instance type (db.m5.2xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment option (Multi-AZ), Pricing strategy (OnDemand), Cost for one month of retention (per vCPU per month) (1.5000000000), Cost for total retention (per vCPU per month) (1.63), Cost for each additional month of retention (per vCPU per month) (0.0631000000), Additional backup storage (5 TB)"
+My Estimate,US East (N. Virginia),S3,S3 Standard,0,144.76,1737.12,USD,,"S3 Standard storage (5 TB per month), PUT, COPY, POST, LIST requests to S3 Standard (5000000), GET, SELECT, and all other requests from S3 Standard (5000000)"
+My Estimate,US East (N. Virginia),S3,Data Transfer,0,0,0.00,USD,,
+My Estimate,US East (N. Virginia),VPC,VPN Connection,0,494,5928.00,USD,,"Working days per month (22), Number of Site-to-Site VPN Connections (2), Number of subnet associations (2)"
+My Estimate,US East (N. Virginia),VPC,Network Address Translation (NAT) Gateway,0,78.93,947.16,USD,,Number of NAT Gateways (1)
+My Estimate,US East (N. Virginia),ELB,Application Load Balancer,0,422.18,5066.16,USD,,Number of Application Load Balancers (2)
+My Estimate,US East (N. Virginia),Route 53,Amazon Route 53,0,756.5,9078.00,USD,,"Hosted Zones (1), IP (CIDR) blocks (1), Basic Checks Within AWS (2), Number of Elastic Network Interfaces (2), Number of domains stored (1)"
+
+
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
